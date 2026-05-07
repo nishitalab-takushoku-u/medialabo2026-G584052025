@@ -16,3 +16,16 @@ let gakka = [
 
 //////////////// ここから下にプログラムを書きたそう!
 
+// 1. キャンパスの住所を出力
+console.log(campus.address);
+
+// 2. D館の教室名を出力（for-of 構文を使用）
+for (let room of campus.buildingD) {
+ console.log(room);
+}
+
+// 3. 日本語の学科名を出力（for-of 構文を使用）
+for (let item of gakka) {
+ console.log(item.name);
+}
+
